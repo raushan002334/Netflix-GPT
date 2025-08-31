@@ -4,7 +4,10 @@ import Browse from './Browse'
 import error from './error'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
+
+
 const Body = () => {
+
     const appRoutes = createBrowserRouter([
         {
             path: "/",
@@ -19,6 +22,7 @@ const Body = () => {
             element: <error/>
         }
     ]);
+
 
   return (
     <div>
